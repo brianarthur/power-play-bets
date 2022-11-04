@@ -1,0 +1,252 @@
+{
+    "success": 1,
+    "pager": {
+        "page": 1,
+        "per_page": 50,
+        "total": 11
+    },
+    "results": [
+        {
+            "id": "127632550",
+            "sport_id": "17",
+            "time": "1667520300",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10698634",
+                "name": "SEA Kraken"
+            },
+            "away": {
+                "id": "10364156",
+                "name": "MIN Wild"
+            },
+            "ss": "4-0",
+            "our_event_id": "5282108",
+            "r_id": "15819555125C17A",
+            "updated_at": "1667528903"
+        },
+        {
+            "id": "127632553",
+            "sport_id": "17",
+            "time": "1667520300",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10400735",
+                "name": "MON Canadiens"
+            },
+            "away": {
+                "id": "10360630",
+                "name": "WIN Jets"
+            },
+            "ss": "2-3",
+            "our_event_id": "5281768",
+            "r_id": "15319008175C17A",
+            "updated_at": "1667529517"
+        },
+        {
+            "id": "127632557",
+            "sport_id": "17",
+            "time": "1667520300",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364155",
+                "name": "NY Islanders"
+            },
+            "away": {
+                "id": "10364154",
+                "name": "STL Blues"
+            },
+            "ss": "5-2",
+            "our_event_id": "5282107",
+            "r_id": "15274051065C17A",
+            "updated_at": "1667529782"
+        },
+        {
+            "id": "127632560",
+            "sport_id": "17",
+            "time": "1667522100",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10360634",
+                "name": "LA Kings"
+            },
+            "away": {
+                "id": "10364165",
+                "name": "CHI Blackhawks"
+            },
+            "ss": "1-2",
+            "our_event_id": "5281769",
+            "r_id": "15354875305C17A",
+            "updated_at": "1667531820"
+        },
+        {
+            "id": "127632563",
+            "sport_id": "17",
+            "time": "1667523900",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364153",
+                "name": "NJ Devils"
+            },
+            "away": {
+                "id": "10364164",
+                "name": "EDM Oilers"
+            },
+            "ss": "4-3",
+            "our_event_id": "5282109",
+            "r_id": "15266265905C17A",
+            "updated_at": "1667533947"
+        },
+        {
+            "id": "127632566",
+            "sport_id": "17",
+            "time": "1667523900",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10400738",
+                "name": "NAS Predators"
+            },
+            "away": {
+                "id": "10360631",
+                "name": "CAL Flames"
+            },
+            "ss": "4-1",
+            "our_event_id": "5281770",
+            "r_id": "15397974375C17A",
+            "updated_at": "1667533272"
+        },
+        {
+            "id": "127632569",
+            "sport_id": "17",
+            "time": "1667527500",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364160",
+                "name": "DAL Stars"
+            },
+            "away": {
+                "id": "10400736",
+                "name": "ARZ Coyotes"
+            },
+            "ss": "7-2",
+            "our_event_id": "5281772",
+            "r_id": "15819555155C17A",
+            "updated_at": "1667536538"
+        },
+        {
+            "id": "127632572",
+            "sport_id": "17",
+            "time": "1667527500",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364158",
+                "name": "ANA Ducks"
+            },
+            "away": {
+                "id": "10400740",
+                "name": "VAN Canucks"
+            },
+            "ss": "5-8",
+            "our_event_id": "5281771",
+            "r_id": "15367476055C17A",
+            "updated_at": "1667537270"
+        },
+        {
+            "id": "127632576",
+            "sport_id": "17",
+            "time": "1667529300",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364152",
+                "name": "FLA Panthers"
+            },
+            "away": {
+                "id": "10360632",
+                "name": "SJ Sharks"
+            },
+            "ss": "3-3",
+            "our_event_id": "5282110",
+            "r_id": "15322890795C17A",
+            "updated_at": "1667539461"
+        },
+        {
+            "id": "127684533",
+            "sport_id": "17",
+            "time": "1667585100",
+            "time_status": "3",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10403032",
+                "name": "CLB Blue Jackets"
+            },
+            "away": {
+                "id": "10364162",
+                "name": "COL Avalanche"
+            },
+            "ss": "3-6",
+            "our_event_id": "5281773",
+            "r_id": "15274051695C17A",
+            "updated_at": "1667595513"
+        },
+        {
+            "id": "127684536",
+            "sport_id": "17",
+            "time": "1667603100",
+            "time_status": "0",
+            "league": {
+                "id": "10037477",
+                "name": "NHL"
+            },
+            "home": {
+                "id": "10364161",
+                "name": "BUF Sabres"
+            },
+            "away": {
+                "id": "10400741",
+                "name": "CAR Hurricanes"
+            },
+            "ss": null,
+            "our_event_id": "5281774",
+            "r_id": null,
+            "updated_at": "1667597545"
+        }
+    ]
+}
