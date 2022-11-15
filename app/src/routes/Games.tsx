@@ -48,6 +48,9 @@ const Games = () => {
     const awayName = game.away.name;
     const homeName = game.home.name;
 
+    const awayTeamItems = Object.entries(awayTeam);
+    const homeTeamItems = Object.entries(homeTeam);
+
     return (
         <>
             <Navbar />
@@ -86,7 +89,10 @@ const Games = () => {
                         <div className='is-flex is-justify-content-flex-start mb-5'>
                             <div className='title has-text-info'>{awayName} Team PP Player Stats</div>
                         </div>
-                        {Object.entries(awayTeam).map(([player, stats], index) => {
+                        {awayTeamItems.length === 0 && 
+                            <div className='is-flex is-justify-content-flex-start'>No Power Play Stats Available</div>
+                        }
+                        {awayTeamItems.length > 0 && awayTeamItems.map(([player, stats], index) => {
                             return <Player key={`away-player-${index}`} name={player} playerStats={stats} />
                         })}
                     </div>
@@ -94,7 +100,10 @@ const Games = () => {
                         <div className='is-flex is-justify-content-flex-end mb-5'>
                             <div className='title has-text-info'>{homeName} Team PP Player Stats</div>
                         </div>
-                        {Object.entries(homeTeam).map(([player, stats], index) => {
+                        {homeTeamItems.length === 0 && 
+                            <div className='is-flex is-justify-content-flex-end'>No Power Play Stats Available</div>
+                        }
+                        {homeTeamItems.length > 0 && homeTeamItems.map(([player, stats], index) => {
                             return <Player key={`home-player-${index}`} name={player} playerStats={stats} />
                         })}
                     </div>
