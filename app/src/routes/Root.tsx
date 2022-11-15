@@ -16,8 +16,10 @@ function assertLoaderData(loaderData: any) {
     return loaderData as LoaderDataType;
 }
 
-export function loader() {
-    return getTeamStats();
+export async function loader() {
+    const res = await getTeamStats();
+    const data = await res.json();
+    return data;
 }
 
 const Root = () => {
