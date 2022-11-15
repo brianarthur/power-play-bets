@@ -1,0 +1,64 @@
+// 1. Import the initial variables
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+// 2. Set your own initial variables
+// 3. Set the derived variables
+// 4. Setup your Custom Colors
+// 5. Add new color variables to the color map.
+// 6. Import the rest of Bulma
+
+@import "bulma";
+
+.center-columns > .column {
+    display: flex;
+    justify-content: center;
+}
+
+.pp-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & .stat-value {
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $yellow;
+
+        &.is-very-high {
+            background-color: green;
+            color: $grey-lighter;
+        }
+        &.is-high {
+            background-color: $green;
+        }
+
+        &.is-low {
+            background-color: $red;
+        }
+
+        &.is-very-low {
+            background-color: red;
+            color: $grey-lighter;
+        }
+    }
+}
+
+.team-stats-content {
+    border: 0;
+}
+
+.fixed-top-navbar-padding {
+    padding-top: 3.25rem;
+}
+
+.error-page {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
