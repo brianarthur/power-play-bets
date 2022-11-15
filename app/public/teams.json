@@ -1,225 +1,517 @@
 {
-    "128225793": {
-        "home": {
-            "name": "Islanders",
-            "stats": {
-                "PTS": 20,
-                "GF/G": 3.313,
-                "GA/G": 2.563,
-                "PP%": 17.0,
-                "PPGF": 8,
-                "PK%": 84.3,
-                "PPGA": 8,
-                "SV%": 0.921,
-                "PPGF/G": 0.5,
-                "PPGA/G": 0.5
+    "updated": "Tuesday, November 15 2022, 04:01 PM EST",
+    "data": {
+        "128277392": {
+            "time": "07:05 PM EST",
+            "home": {
+                "name": "Capitals",
+                "stats": {
+                    "PTS": 16,
+                    "GF/G": 2.882,
+                    "GA/G": 3.059,
+                    "PP%": 20.3,
+                    "PPGF": 13,
+                    "PK%": 80.8,
+                    "PPGA": 10,
+                    "SV%": 0.902,
+                    "PPGF/G": 0.7647058823529411,
+                    "PPGA/G": 0.5882352941176471
+                },
+                "rankings": {
+                    "PTS": 21,
+                    "GF/G": 22,
+                    "GA/G": 15,
+                    "PP%": 17,
+                    "PPGF": 13,
+                    "PK%": 13,
+                    "PPGA": 15,
+                    "SV%": 11,
+                    "PPGF/G": 17,
+                    "PPGA/G": 13
+                }
             },
-            "rankings": {
-                "PTS": 5,
-                "GF/G": 10,
-                "GA/G": 6,
-                "PP%": 25,
-                "PPGF": 26,
-                "PK%": 4,
-                "PPGA": 5,
-                "SV%": 4,
-                "PPGF/G": 25,
-                "PPGA/G": 4
+            "away": {
+                "name": "Panthers",
+                "stats": {
+                    "PTS": 17,
+                    "GF/G": 3.133,
+                    "GA/G": 3.067,
+                    "PP%": 14.8,
+                    "PPGF": 9,
+                    "PK%": 75.4,
+                    "PPGA": 14,
+                    "SV%": 0.9,
+                    "PPGF/G": 0.6,
+                    "PPGA/G": 0.9333333333333333
+                },
+                "rankings": {
+                    "PTS": 16,
+                    "GF/G": 15,
+                    "GA/G": 16,
+                    "PP%": 29,
+                    "PPGF": 25,
+                    "PK%": 25,
+                    "PPGA": 26,
+                    "SV%": 13,
+                    "PPGF/G": 29,
+                    "PPGA/G": 25
+                }
             }
         },
-        "away": {
-            "name": "Senators",
-            "stats": {
-                "PTS": 11,
-                "GF/G": 3.5,
-                "GA/G": 3.5,
-                "PP%": 24.0,
-                "PPGF": 12,
-                "PK%": 79.2,
-                "PPGA": 11,
-                "SV%": 0.897,
-                "PPGF/G": 0.8571428571428571,
-                "PPGA/G": 0.7857142857142857
+        "128277395": {
+            "time": "07:05 PM EST",
+            "home": {
+                "name": "Stars",
+                "stats": {
+                    "PTS": 19,
+                    "GF/G": 3.733,
+                    "GA/G": 2.533,
+                    "PP%": 30.4,
+                    "PPGF": 14,
+                    "PK%": 85.2,
+                    "PPGA": 9,
+                    "SV%": 0.917,
+                    "PPGF/G": 0.9333333333333333,
+                    "PPGA/G": 0.6
+                },
+                "rankings": {
+                    "PTS": 11,
+                    "GF/G": 2,
+                    "GA/G": 6,
+                    "PP%": 3,
+                    "PPGF": 7,
+                    "PK%": 3,
+                    "PPGA": 8,
+                    "SV%": 6,
+                    "PPGF/G": 3,
+                    "PPGA/G": 3
+                }
             },
-            "rankings": {
-                "PTS": 29,
-                "GF/G": 9,
-                "GA/G": 26,
-                "PP%": 10,
-                "PPGF": 15,
-                "PK%": 16,
-                "PPGA": 20,
-                "SV%": 18,
-                "PPGF/G": 10,
-                "PPGA/G": 16
-            }
-        }
-    },
-    "128233168": {
-        "home": {
-            "name": "Kings",
-            "stats": {
-                "PTS": 21,
-                "GF/G": 3.235,
-                "GA/G": 3.353,
-                "PP%": 19.4,
-                "PPGF": 14,
-                "PK%": 75.4,
-                "PPGA": 16,
-                "SV%": 0.888,
-                "PPGF/G": 0.8235294117647058,
-                "PPGA/G": 0.9411764705882353
-            },
-            "rankings": {
-                "PTS": 4,
-                "GF/G": 14,
-                "GA/G": 22,
-                "PP%": 20,
-                "PPGF": 6,
-                "PK%": 25,
-                "PPGA": 29,
-                "SV%": 27,
-                "PPGF/G": 20,
-                "PPGA/G": 25
-            }
-        },
-        "away": {
-            "name": "Flames",
-            "stats": {
-                "PTS": 14,
-                "GF/G": 2.929,
-                "GA/G": 3.214,
-                "PP%": 18.8,
-                "PPGF": 9,
-                "PK%": 82.8,
-                "PPGA": 10,
-                "SV%": 0.884,
-                "PPGF/G": 0.6428571428571429,
-                "PPGA/G": 0.7142857142857143
-            },
-            "rankings": {
-                "PTS": 23,
-                "GF/G": 21,
-                "GA/G": 19,
-                "PP%": 23,
-                "PPGF": 24,
-                "PK%": 7,
-                "PPGA": 16,
-                "SV%": 30,
-                "PPGF/G": 23,
-                "PPGA/G": 7
-            }
-        }
-    },
-    "128233171": {
-        "home": {
-            "name": "Hurricanes",
-            "stats": {
-                "PTS": 19,
-                "GF/G": 3.0,
-                "GA/G": 2.867,
-                "PP%": 16.9,
-                "PPGF": 10,
-                "PK%": 76.4,
-                "PPGA": 13,
-                "SV%": 0.891,
-                "PPGF/G": 0.6666666666666666,
-                "PPGA/G": 0.8666666666666667
-            },
-            "rankings": {
-                "PTS": 10,
-                "GF/G": 19,
-                "GA/G": 11,
-                "PP%": 26,
-                "PPGF": 19,
-                "PK%": 21,
-                "PPGA": 22,
-                "SV%": 25,
-                "PPGF/G": 26,
-                "PPGA/G": 21
+            "away": {
+                "name": "Lightning",
+                "stats": {
+                    "PTS": 17,
+                    "GF/G": 3.267,
+                    "GA/G": 3.2,
+                    "PP%": 22.9,
+                    "PPGF": 14,
+                    "PK%": 83.0,
+                    "PPGA": 10,
+                    "SV%": 0.895,
+                    "PPGF/G": 0.9333333333333333,
+                    "PPGA/G": 0.6666666666666666
+                },
+                "rankings": {
+                    "PTS": 17,
+                    "GF/G": 13,
+                    "GA/G": 17,
+                    "PP%": 14,
+                    "PPGF": 10,
+                    "PK%": 6,
+                    "PPGA": 12,
+                    "SV%": 24,
+                    "PPGF/G": 14,
+                    "PPGA/G": 6
+                }
             }
         },
-        "away": {
-            "name": "Blackhawks",
-            "stats": {
-                "PTS": 15,
-                "GF/G": 2.714,
-                "GA/G": 3.0,
-                "PP%": 23.8,
-                "PPGF": 10,
-                "PK%": 74.5,
-                "PPGA": 14,
-                "SV%": 0.914,
-                "PPGF/G": 0.7142857142857143,
-                "PPGA/G": 1.0
+        "128277398": {
+            "time": "07:05 PM EST",
+            "home": {
+                "name": "MapleLeafs",
+                "stats": {
+                    "PTS": 19,
+                    "GF/G": 2.813,
+                    "GA/G": 2.75,
+                    "PP%": 26.4,
+                    "PPGF": 14,
+                    "PK%": 76.4,
+                    "PPGA": 13,
+                    "SV%": 0.899,
+                    "PPGF/G": 0.875,
+                    "PPGA/G": 0.8125
+                },
+                "rankings": {
+                    "PTS": 8,
+                    "GF/G": 23,
+                    "GA/G": 9,
+                    "PP%": 6,
+                    "PPGF": 8,
+                    "PK%": 20,
+                    "PPGA": 23,
+                    "SV%": 16,
+                    "PPGF/G": 6,
+                    "PPGA/G": 20
+                }
             },
-            "rankings": {
-                "PTS": 21,
-                "GF/G": 25,
-                "GA/G": 14,
-                "PP%": 12,
-                "PPGF": 21,
-                "PK%": 26,
-                "PPGA": 28,
-                "SV%": 8,
-                "PPGF/G": 12,
-                "PPGA/G": 26
-            }
-        }
-    },
-    "128233174": {
-        "home": {
-            "name": "Blues",
-            "stats": {
-                "PTS": 10,
-                "GF/G": 2.385,
-                "GA/G": 3.692,
-                "PP%": 20.0,
-                "PPGF": 7,
-                "PK%": 70.8,
-                "PPGA": 7,
-                "SV%": 0.885,
-                "PPGF/G": 0.5384615384615384,
-                "PPGA/G": 0.5384615384615384
-            },
-            "rankings": {
-                "PTS": 30,
-                "GF/G": 32,
-                "GA/G": 29,
-                "PP%": 18,
-                "PPGF": 30,
-                "PK%": 29,
-                "PPGA": 4,
-                "SV%": 29,
-                "PPGF/G": 18,
-                "PPGA/G": 29
+            "away": {
+                "name": "Penguins",
+                "stats": {
+                    "PTS": 15,
+                    "GF/G": 3.6,
+                    "GA/G": 3.467,
+                    "PP%": 19.2,
+                    "PPGF": 10,
+                    "PK%": 75.5,
+                    "PPGA": 13,
+                    "SV%": 0.899,
+                    "PPGF/G": 0.6666666666666666,
+                    "PPGA/G": 0.8666666666666667
+                },
+                "rankings": {
+                    "PTS": 22,
+                    "GF/G": 7,
+                    "GA/G": 23,
+                    "PP%": 24,
+                    "PPGF": 24,
+                    "PK%": 24,
+                    "PPGA": 24,
+                    "SV%": 15,
+                    "PPGF/G": 24,
+                    "PPGA/G": 24
+                }
             }
         },
-        "away": {
-            "name": "Avalanche",
-            "stats": {
-                "PTS": 17,
-                "GF/G": 3.692,
-                "GA/G": 2.692,
-                "PP%": 39.0,
-                "PPGF": 16,
-                "PK%": 72.9,
-                "PPGA": 13,
-                "SV%": 0.918,
-                "PPGF/G": 1.2307692307692308,
-                "PPGA/G": 1.0
+        "128277402": {
+            "time": "07:05 PM EST",
+            "home": {
+                "name": "Canucks",
+                "stats": {
+                    "PTS": 11,
+                    "GF/G": 3.313,
+                    "GA/G": 4.063,
+                    "PP%": 27.6,
+                    "PPGF": 16,
+                    "PK%": 61.8,
+                    "PPGA": 21,
+                    "SV%": 0.877,
+                    "PPGF/G": 1.0,
+                    "PPGA/G": 1.3125
+                },
+                "rankings": {
+                    "PTS": 29,
+                    "GF/G": 12,
+                    "GA/G": 30,
+                    "PP%": 5,
+                    "PPGF": 4,
+                    "PK%": 32,
+                    "PPGA": 32,
+                    "SV%": 32,
+                    "PPGF/G": 5,
+                    "PPGA/G": 32
+                }
             },
-            "rankings": {
-                "PTS": 14,
-                "GF/G": 3,
-                "GA/G": 7,
-                "PP%": 1,
-                "PPGF": 2,
-                "PK%": 28,
-                "PPGA": 25,
-                "SV%": 5,
-                "PPGF/G": 1,
-                "PPGA/G": 28
+            "away": {
+                "name": "Sabres",
+                "stats": {
+                    "PTS": 14,
+                    "GF/G": 3.667,
+                    "GA/G": 3.467,
+                    "PP%": 25.0,
+                    "PPGF": 14,
+                    "PK%": 73.9,
+                    "PPGA": 12,
+                    "SV%": 0.889,
+                    "PPGF/G": 0.9333333333333333,
+                    "PPGA/G": 0.8
+                },
+                "rankings": {
+                    "PTS": 24,
+                    "GF/G": 6,
+                    "GA/G": 24,
+                    "PP%": 8,
+                    "PPGF": 11,
+                    "PK%": 27,
+                    "PPGA": 20,
+                    "SV%": 27,
+                    "PPGF/G": 8,
+                    "PPGA/G": 27
+                }
+            }
+        },
+        "128277405": {
+            "time": "07:05 PM EST",
+            "home": {
+                "name": "Devils",
+                "stats": {
+                    "PTS": 24,
+                    "GF/G": 3.667,
+                    "GA/G": 2.533,
+                    "PP%": 19.6,
+                    "PPGF": 10,
+                    "PK%": 80.0,
+                    "PPGA": 10,
+                    "SV%": 0.896,
+                    "PPGF/G": 0.6666666666666666,
+                    "PPGA/G": 0.6666666666666666
+                },
+                "rankings": {
+                    "PTS": 3,
+                    "GF/G": 5,
+                    "GA/G": 5,
+                    "PP%": 22,
+                    "PPGF": 18,
+                    "PK%": 14,
+                    "PPGA": 10,
+                    "SV%": 22,
+                    "PPGF/G": 22,
+                    "PPGA/G": 14
+                }
+            },
+            "away": {
+                "name": "Canadiens",
+                "stats": {
+                    "PTS": 17,
+                    "GF/G": 3.067,
+                    "GA/G": 3.2,
+                    "PP%": 16.7,
+                    "PPGF": 7,
+                    "PK%": 80.8,
+                    "PPGA": 10,
+                    "SV%": 0.904,
+                    "PPGF/G": 0.4666666666666667,
+                    "PPGA/G": 0.6666666666666666
+                },
+                "rankings": {
+                    "PTS": 15,
+                    "GF/G": 18,
+                    "GA/G": 18,
+                    "PP%": 26,
+                    "PPGF": 30,
+                    "PK%": 12,
+                    "PPGA": 14,
+                    "SV%": 10,
+                    "PPGF/G": 26,
+                    "PPGA/G": 12
+                }
+            }
+        },
+        "128277412": {
+            "time": "07:35 PM EST",
+            "home": {
+                "name": "Flyers",
+                "stats": {
+                    "PTS": 16,
+                    "GF/G": 2.467,
+                    "GA/G": 2.867,
+                    "PP%": 16.0,
+                    "PPGF": 8,
+                    "PK%": 77.5,
+                    "PPGA": 11,
+                    "SV%": 0.917,
+                    "PPGF/G": 0.5333333333333333,
+                    "PPGA/G": 0.7333333333333333
+                },
+                "rankings": {
+                    "PTS": 19,
+                    "GF/G": 31,
+                    "GA/G": 12,
+                    "PP%": 28,
+                    "PPGF": 27,
+                    "PK%": 18,
+                    "PPGA": 18,
+                    "SV%": 7,
+                    "PPGF/G": 28,
+                    "PPGA/G": 18
+                }
+            },
+            "away": {
+                "name": "BlueJackets",
+                "stats": {
+                    "PTS": 9,
+                    "GF/G": 2.714,
+                    "GA/G": 4.357,
+                    "PP%": 8.1,
+                    "PPGF": 3,
+                    "PK%": 80.0,
+                    "PPGA": 8,
+                    "SV%": 0.879,
+                    "PPGF/G": 0.21428571428571427,
+                    "PPGA/G": 0.5714285714285714
+                },
+                "rankings": {
+                    "PTS": 31,
+                    "GF/G": 25,
+                    "GA/G": 31,
+                    "PP%": 32,
+                    "PPGF": 32,
+                    "PK%": 15,
+                    "PPGA": 5,
+                    "SV%": 31,
+                    "PPGF/G": 32,
+                    "PPGA/G": 15
+                }
+            }
+        },
+        "128277415": {
+            "time": "08:05 PM EST",
+            "home": {
+                "name": "Wild",
+                "stats": {
+                    "PTS": 16,
+                    "GF/G": 2.733,
+                    "GA/G": 2.933,
+                    "PP%": 24.0,
+                    "PPGF": 12,
+                    "PK%": 81.6,
+                    "PPGA": 9,
+                    "SV%": 0.906,
+                    "PPGF/G": 0.8,
+                    "PPGA/G": 0.6
+                },
+                "rankings": {
+                    "PTS": 18,
+                    "GF/G": 24,
+                    "GA/G": 13,
+                    "PP%": 9,
+                    "PPGF": 15,
+                    "PK%": 10,
+                    "PPGA": 9,
+                    "SV%": 9,
+                    "PPGF/G": 9,
+                    "PPGA/G": 10
+                }
+            },
+            "away": {
+                "name": "Predators",
+                "stats": {
+                    "PTS": 13,
+                    "GF/G": 2.6,
+                    "GA/G": 3.333,
+                    "PP%": 14.6,
+                    "PPGF": 8,
+                    "PK%": 81.8,
+                    "PPGA": 10,
+                    "SV%": 0.898,
+                    "PPGF/G": 0.5333333333333333,
+                    "PPGA/G": 0.6666666666666666
+                },
+                "rankings": {
+                    "PTS": 26,
+                    "GF/G": 29,
+                    "GA/G": 21,
+                    "PP%": 30,
+                    "PPGF": 28,
+                    "PK%": 8,
+                    "PPGA": 16,
+                    "SV%": 18,
+                    "PPGF/G": 30,
+                    "PPGA/G": 8
+                }
+            }
+        },
+        "128277418": {
+            "time": "10:05 PM EST",
+            "home": {
+                "name": "Sharks",
+                "stats": {
+                    "PTS": 13,
+                    "GF/G": 2.706,
+                    "GA/G": 3.353,
+                    "PP%": 18.8,
+                    "PPGF": 9,
+                    "PK%": 90.9,
+                    "PPGA": 4,
+                    "SV%": 0.893,
+                    "PPGF/G": 0.5294117647058824,
+                    "PPGA/G": 0.23529411764705882
+                },
+                "rankings": {
+                    "PTS": 25,
+                    "GF/G": 26,
+                    "GA/G": 22,
+                    "PP%": 25,
+                    "PPGF": 26,
+                    "PK%": 2,
+                    "PPGA": 1,
+                    "SV%": 25,
+                    "PPGF/G": 25,
+                    "PPGA/G": 2
+                }
+            },
+            "away": {
+                "name": "GoldenKnights",
+                "stats": {
+                    "PTS": 26,
+                    "GF/G": 3.688,
+                    "GA/G": 2.313,
+                    "PP%": 23.9,
+                    "PPGF": 11,
+                    "PK%": 76.3,
+                    "PPGA": 9,
+                    "SV%": 0.923,
+                    "PPGF/G": 0.6875,
+                    "PPGA/G": 0.5625
+                },
+                "rankings": {
+                    "PTS": 2,
+                    "GF/G": 3,
+                    "GA/G": 2,
+                    "PP%": 10,
+                    "PPGF": 16,
+                    "PK%": 21,
+                    "PPGA": 6,
+                    "SV%": 3,
+                    "PPGF/G": 10,
+                    "PPGA/G": 21
+                }
+            }
+        },
+        "128277421": {
+            "time": "10:05 PM EST",
+            "home": {
+                "name": "RedWings",
+                "stats": {
+                    "PTS": 17,
+                    "GF/G": 2.933,
+                    "GA/G": 3.267,
+                    "PP%": 19.3,
+                    "PPGF": 11,
+                    "PK%": 78.3,
+                    "PPGA": 10,
+                    "SV%": 0.9,
+                    "PPGF/G": 0.7333333333333333,
+                    "PPGA/G": 0.6666666666666666
+                },
+                "rankings": {
+                    "PTS": 13,
+                    "GF/G": 21,
+                    "GA/G": 19,
+                    "PP%": 23,
+                    "PPGF": 17,
+                    "PK%": 16,
+                    "PPGA": 13,
+                    "SV%": 14,
+                    "PPGF/G": 23,
+                    "PPGA/G": 16
+                }
+            },
+            "away": {
+                "name": "Ducks",
+                "stats": {
+                    "PTS": 9,
+                    "GF/G": 2.667,
+                    "GA/G": 4.467,
+                    "PP%": 9.8,
+                    "PPGF": 4,
+                    "PK%": 64.3,
+                    "PPGA": 20,
+                    "SV%": 0.886,
+                    "PPGF/G": 0.26666666666666666,
+                    "PPGA/G": 1.3333333333333333
+                },
+                "rankings": {
+                    "PTS": 32,
+                    "GF/G": 28,
+                    "GA/G": 32,
+                    "PP%": 31,
+                    "PPGF": 31,
+                    "PK%": 31,
+                    "PPGA": 31,
+                    "SV%": 28,
+                    "PPGF/G": 31,
+                    "PPGA/G": 31
+                }
             }
         }
     }

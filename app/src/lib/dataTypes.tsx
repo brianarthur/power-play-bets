@@ -20,6 +20,7 @@ export interface PPStats {
 }
 
 export interface Teams {
+    time: string;
     home: Team;
     away: Team;
 }

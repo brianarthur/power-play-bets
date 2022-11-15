@@ -28,6 +28,7 @@ const Team = ({ gameId, game }: TeamProps) => {
                     <div className='column'>
                         <div className='is-flex is-flex-direction-column is-align-items-center'>
                             <div className='title'>@</div>
+                            <div className='pb-3'>{game.time}</div>
                             <Link to={gameUrl} role='button' className='button is-info'>View</Link>
                         </div>
                     </div>

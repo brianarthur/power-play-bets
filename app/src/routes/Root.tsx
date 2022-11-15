@@ -6,7 +6,10 @@ import { Teams } from '../lib/dataTypes';
 import { getTeamStats } from '../lib/getBetsData';
 
 interface LoaderDataType {
-    [key: string]: Teams,
+    updated: string;
+    data: { 
+        [key: string]: Teams;
+    };
 }
 
 function assertLoaderData(loaderData: any) {
@@ -19,13 +22,15 @@ export function loader() {
 
 const Root = () => {
     const loaderData: any = useLoaderData();
-    const games = assertLoaderData(loaderData);
+    const { updated, data: games} = assertLoaderData(loaderData);
 
     return (
         <>
             <Navbar />
 
             <div className='container mt-5 fixed-top-navbar-padding'>
+                <div className='title is-5'>Last updated: {updated}</div>
+                
                 {Object.entries(games).map(([gameId, game], index) => 
                     <Team key={`team-${index}`} gameId={gameId} game={game} />
                 )}

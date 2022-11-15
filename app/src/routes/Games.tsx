@@ -23,8 +23,8 @@ function assertLoaderData(loaderData: any) {
 
 export async function loader({ params }: any) {
     const teamRes = await getTeamStats();
-    const games = await teamRes.json();
-    const game = games[params.gameId];
+    const team_data = await teamRes.json();
+    const game = team_data.data[params.gameId];
 
     if (!game) {
         throw new Response("", {
