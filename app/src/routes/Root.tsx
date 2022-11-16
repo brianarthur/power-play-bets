@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, ScrollRestoration } from "react-router-dom";
 import Team from '../components/Team';
 import Navbar from '../components/Navbar';
 import { Teams } from '../lib/dataTypes';
@@ -37,6 +37,8 @@ const Root = () => {
                     <Team key={`team-${index}`} gameId={gameId} game={game} />
                 )}
             </div>
+
+            <ScrollRestoration />
         </>
     )
 }

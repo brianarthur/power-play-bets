@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, ScrollRestoration } from "react-router-dom";
 import Player from '../components/Player';
 import TeamStats from '../components/TeamStats';
 import Navbar from '../components/Navbar';
@@ -131,6 +131,8 @@ const Games = () => {
                     </div>
                 </div>
             </div>
+
+            <ScrollRestoration />
         </>
     );
 }
