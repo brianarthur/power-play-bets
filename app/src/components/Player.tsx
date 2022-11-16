@@ -5,14 +5,20 @@ import { PlayerStats } from '../lib/dataTypes';
 interface PlayerProps {
     name: string;
     playerStats: PlayerStats;
+    last5: boolean;
 }
 
 const row1 = ['GP', 'TOI/GP', 'Goals', 'Assists', 'Shots', 'SH%'];
 const row2 = ['CF', 'SF', 'GF', 'xGF', 'GF/xGF', 'HDCF'];
 
-const Player = ({ name, playerStats }: PlayerProps) => {
-    const stats = playerStats['pp_stats'];
-    const percentiles = playerStats['pp_stats_percentiles'];
+const Player = ({ name, playerStats, last5 }: PlayerProps) => {
+    let stats = playerStats['pp_stats'];
+    let percentiles = playerStats['pp_stats_percentiles'];
+
+    if (last5) {
+        stats = playerStats['pp_stats_last5'];
+        percentiles = playerStats['pp_stats_last5_percentiles'];
+    }
 
     const isStatsEmpty = !stats || !percentiles;
 
@@ -34,14 +40,14 @@ const Player = ({ name, playerStats }: PlayerProps) => {
                         <div className='columns center-columns'>
                             {row1.map((col, idx) => 
                                 <div key={`row1-${idx}`} className='column d-flex'>
-                                    <DisplayStatValue stat={col} value={stats[col]} rank={percentiles[col]} getRankColorRange={getRankColorRange} />
+                                    <DisplayStatValue stat={col} value={stats?.[col] || 0} rank={percentiles?.[col] || 0} getRankColorRange={getRankColorRange} />
                                 </div>
                             )}
                         </div>
                         <div className='columns center-columns'>
                             {row2.map((col, idx) => 
                                 <div key={`row2-${idx}`} className='column'>
-                                    <DisplayStatValue stat={col} value={stats[col]} rank={percentiles[col]} getRankColorRange={getRankColorRange} />
+                                    <DisplayStatValue stat={col} value={stats?.[col] || 0} rank={percentiles?.[col] || 0} getRankColorRange={getRankColorRange} />
                                 </div>
                             )}
                         </div>
